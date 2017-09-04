@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Instrumenting": {
+      "commandName": "Project",
+      "commandLineArgs": "info"
+    }
+  }
+}
