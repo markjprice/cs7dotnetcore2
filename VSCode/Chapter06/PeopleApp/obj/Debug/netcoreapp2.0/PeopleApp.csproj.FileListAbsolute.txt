@@ -1,0 +1,12 @@
+/Users/markjprice/Code/Chapter06/PeopleApp/bin/Debug/netcoreapp2.0/PeopleApp.deps.json
+/Users/markjprice/Code/Chapter06/PeopleApp/bin/Debug/netcoreapp2.0/PeopleApp.runtimeconfig.json
+/Users/markjprice/Code/Chapter06/PeopleApp/bin/Debug/netcoreapp2.0/PeopleApp.runtimeconfig.dev.json
+/Users/markjprice/Code/Chapter06/PeopleApp/bin/Debug/netcoreapp2.0/PeopleApp.dll
+/Users/markjprice/Code/Chapter06/PeopleApp/bin/Debug/netcoreapp2.0/PeopleApp.pdb
+/Users/markjprice/Code/Chapter06/PeopleApp/bin/Debug/netcoreapp2.0/PacktLibrary.dll
+/Users/markjprice/Code/Chapter06/PeopleApp/bin/Debug/netcoreapp2.0/PacktLibrary.pdb
+/Users/markjprice/Code/Chapter06/PeopleApp/obj/Debug/netcoreapp2.0/PeopleApp.csproj.CoreCompileInputs.cache
+/Users/markjprice/Code/Chapter06/PeopleApp/obj/Debug/netcoreapp2.0/PeopleApp.AssemblyInfoInputs.cache
+/Users/markjprice/Code/Chapter06/PeopleApp/obj/Debug/netcoreapp2.0/PeopleApp.AssemblyInfo.cs
+/Users/markjprice/Code/Chapter06/PeopleApp/obj/Debug/netcoreapp2.0/PeopleApp.dll
+/Users/markjprice/Code/Chapter06/PeopleApp/obj/Debug/netcoreapp2.0/PeopleApp.pdb

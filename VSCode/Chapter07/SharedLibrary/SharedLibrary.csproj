@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <PackageId>Packt.CS7.SharedLibrary</PackageId>
+
+    <!-- The package version number that is used when resolving dependencies -->
+    <PackageVersion>1.0.0.0</PackageVersion>
+
+    <!-- Authors contain text that appears directly on the gallery -->
+    <Authors>Mark J Price</Authors>
+
+    <!-- License and project URLs provide links for the gallery -->
+    <PackageLicenseUrl>http://opensource.org/licenses/MS-PL</PackageLicenseUrl>
+    <PackageProjectUrl>http://github.com/markjprice/cs7dotnetcore2</PackageProjectUrl>
+
+    <!-- The icon is used in Visual Studio's package manager UI -->
+    <PackageIconUrl>http://github.com/markjprice/cs7dotnetcore2/nuget_icon.png</PackageIconUrl>
+
+    <!-- If true, this value prompts the user to accept the license when
+            installing the package. -->
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+
+    <!-- Any details about this particular release -->
+    <PackageReleaseNotes>Example shared library packaged for NuGet.</PackageReleaseNotes>
+
+    <!-- The description can be used in package manager UI. Note that the
+            nuget.org gallery uses information you add in the portal. -->
+    <Description>Three extension methods to validate a string value.</Description>
+
+    <!-- Copyright information -->
+    <Copyright>Copyright ©2017 Packt Publishing Limited</Copyright>
+
+    <!-- Tags appear in the gallery and can be used for tag searches -->
+    <PackageTags>string extension packt cs7</PackageTags>
+
+  </PropertyGroup>
+
+</Project>
