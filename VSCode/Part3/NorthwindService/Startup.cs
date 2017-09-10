@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using NorthwindMvc.Data;
-using NorthwindMvc.Models;
-using NorthwindMvc.Services;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using Microsoft.EntityFrameworkCore;
+using NorthwindService.Repositories;
+using Swashbuckle.AspNetCore.Swagger;
+using Packt.CS7;
 
-namespace NorthwindMvc
+namespace NorthwindService
 {
     public class Startup
     {
@@ -26,20 +27,20 @@ namespace NorthwindMvc
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddCors();
 
-            services.AddDbContext<Packt.CS7.Northwind>(options => 
+            services.AddDbContext<Northwind>(options =>
                 options.UseSqlite("Data Source=../Northwind.db"));
-            
-            services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
-                .AddDefaultTokenProviders();
 
-            // Add application services.
-            services.AddTransient<IEmailSender, EmailSender>();
-
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
+         
             services.AddMvc();
+
+            // Register the Swagger generator, and define a Swagger document for Northwind service
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "Northwind Service API", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,22 +49,17 @@ namespace NorthwindMvc
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseDatabaseErrorPage();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseStaticFiles();
+            app.UseCors(c => c.WithOrigins("http://localhost:5002"));
 
-            app.UseAuthentication();
+            app.UseMvc();
 
-            app.UseMvc(routes =>
+            app.UseSwagger();
+            
+            app.UseSwaggerUI(c =>
             {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Northwind Service API V1");
             });
         }
     }

@@ -1,0 +1,14 @@
+/Users/markjprice/Code/Part3/NorthwindService/bin/Debug/netcoreapp2.0/NorthwindService.deps.json
+/Users/markjprice/Code/Part3/NorthwindService/bin/Debug/netcoreapp2.0/NorthwindService.runtimeconfig.json
+/Users/markjprice/Code/Part3/NorthwindService/bin/Debug/netcoreapp2.0/NorthwindService.runtimeconfig.dev.json
+/Users/markjprice/Code/Part3/NorthwindService/bin/Debug/netcoreapp2.0/NorthwindService.dll
+/Users/markjprice/Code/Part3/NorthwindService/bin/Debug/netcoreapp2.0/NorthwindService.pdb
+/Users/markjprice/Code/Part3/NorthwindService/obj/Debug/netcoreapp2.0/NorthwindService.csproj.CoreCompileInputs.cache
+/Users/markjprice/Code/Part3/NorthwindService/obj/Debug/netcoreapp2.0/NorthwindService.AssemblyInfoInputs.cache
+/Users/markjprice/Code/Part3/NorthwindService/obj/Debug/netcoreapp2.0/NorthwindService.AssemblyInfo.cs
+/Users/markjprice/Code/Part3/NorthwindService/obj/Debug/netcoreapp2.0/NorthwindService.dll
+/Users/markjprice/Code/Part3/NorthwindService/obj/Debug/netcoreapp2.0/NorthwindService.pdb
+/Users/markjprice/Code/Part3/NorthwindService/bin/Debug/netcoreapp2.0/NorthwindContextLib.dll
+/Users/markjprice/Code/Part3/NorthwindService/bin/Debug/netcoreapp2.0/NorthwindEntitiesLib.dll
+/Users/markjprice/Code/Part3/NorthwindService/bin/Debug/netcoreapp2.0/NorthwindContextLib.pdb
+/Users/markjprice/Code/Part3/NorthwindService/bin/Debug/netcoreapp2.0/NorthwindEntitiesLib.pdb

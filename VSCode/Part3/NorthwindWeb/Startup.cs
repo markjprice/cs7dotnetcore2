@@ -20,7 +20,7 @@ namespace NorthwindWeb
             services.AddMvc();
 
             services.AddDbContext<Northwind>(options => 
-                options.UseSqlite("Data Source=Northwind.db"));
+                options.UseSqlite("Data Source=../Northwind.db"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
