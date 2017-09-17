@@ -1,0 +1,23 @@
+<h1>Customers</h1>
+<p>These customers have been loaded from the NorthwindService.</p>
+<p *ngIf="!customers"><em>Loading customers... please wait.</em></p>
+<table class='table' *ngIf="customers">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Company Name</th>
+            <th>Contact Name</th>
+            <th>City</th>
+            <th>Country</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let customer of customers">
+            <td>{{ customer.customerID }}</td>
+            <td>{{ customer.companyName }}</td>
+            <td>{{ customer.contactName }}</td>
+            <td>{{ customer.city }}</td>
+            <td>{{ customer.country }}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,8 +1,0 @@
-/Users/markjprice/Code/Part3/NorthwindEntitiesLib/bin/Debug/netstandard2.0/NorthwindEntitiesLib.deps.json
-/Users/markjprice/Code/Part3/NorthwindEntitiesLib/bin/Debug/netstandard2.0/NorthwindEntitiesLib.dll
-/Users/markjprice/Code/Part3/NorthwindEntitiesLib/bin/Debug/netstandard2.0/NorthwindEntitiesLib.pdb
-/Users/markjprice/Code/Part3/NorthwindEntitiesLib/obj/Debug/netstandard2.0/NorthwindEntitiesLib.csproj.CoreCompileInputs.cache
-/Users/markjprice/Code/Part3/NorthwindEntitiesLib/obj/Debug/netstandard2.0/NorthwindEntitiesLib.AssemblyInfoInputs.cache
-/Users/markjprice/Code/Part3/NorthwindEntitiesLib/obj/Debug/netstandard2.0/NorthwindEntitiesLib.AssemblyInfo.cs
-/Users/markjprice/Code/Part3/NorthwindEntitiesLib/obj/Debug/netstandard2.0/NorthwindEntitiesLib.dll
-/Users/markjprice/Code/Part3/NorthwindEntitiesLib/obj/Debug/netstandard2.0/NorthwindEntitiesLib.pdb
