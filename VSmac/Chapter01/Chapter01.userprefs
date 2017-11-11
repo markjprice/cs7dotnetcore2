@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{F42EE5FF-5835-45A9-904E-31D1C1CE8F55}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloCS/MyApp.cs">
+    <Files>
+      <File FileName="HelloCS/MyApp.cs" Line="7" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WelcomeDotNetCoreMac PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

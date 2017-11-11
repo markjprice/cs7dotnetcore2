@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WelcomeDotNetCoreMac", "WelcomeDotNetCoreMac\WelcomeDotNetCoreMac.csproj", "{F42EE5FF-5835-45A9-904E-31D1C1CE8F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCS", "HelloCS\HelloCS.csproj", "{8171F568-84AD-453B-9793-7F5EAFF5A290}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F42EE5FF-5835-45A9-904E-31D1C1CE8F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42EE5FF-5835-45A9-904E-31D1C1CE8F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42EE5FF-5835-45A9-904E-31D1C1CE8F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42EE5FF-5835-45A9-904E-31D1C1CE8F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8171F568-84AD-453B-9793-7F5EAFF5A290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8171F568-84AD-453B-9793-7F5EAFF5A290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8171F568-84AD-453B-9793-7F5EAFF5A290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8171F568-84AD-453B-9793-7F5EAFF5A290}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
