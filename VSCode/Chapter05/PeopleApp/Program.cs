@@ -46,6 +46,19 @@ namespace PeopleApp
             ba2.Balance = 98;
             WriteLine($"{ba2.AccountName} earned {ba2.Balance * BankAccount.InterestRate:C} interest.");
 
+            WriteLine($"{p1.Name} is a {Person.Species}");
+
+            WriteLine($"{p1.Name} was born on {p1.HomePlanet}");
+
+            var p3 = new Person();
+            WriteLine($"{p3.Name} was instantiated at  {p3.Instantiated:hh:mm:ss} on {p3.Instantiated:dddd, d MMMM  yyyy}");
+
+            var p4 = new Person("Aziz");
+            WriteLine($"{p4.Name} was instantiated at {p4.Instantiated:hh:mm:ss} on {p4.Instantiated:dddd, d MMMM yyyy}");
+
+            p1.WriteToConsole();
+            WriteLine(p1.GetOrigin());
+
             Tuple<string, int> fruit4 = p1.GetFruitCS4();
             WriteLine($"There are {fruit4.Item2} {fruit4.Item1}.");
 
@@ -66,6 +79,41 @@ namespace PeopleApp
             WriteLine(p1.SayHello("Emily"));
 
             WriteLine(p1.OptionalParameters());
+
+            int a = 10;
+            int b = 20;
+            int c = 30;
+            WriteLine($"Before: a = {a}, b = {b}, c = {c}");
+            p1.PassingParameters(a, ref b, out c);
+            WriteLine($"After: a = {a}, b = {b}, c = {c}");
+
+            // simplified C# 7 syntax for out parameters
+            int d = 10;
+            int e = 20;
+            WriteLine($"Before: d = {d}, e = {e}, f doesn't exist yet!");
+            p1.PassingParameters(d, ref e, out int f);
+            WriteLine($"After: d = {d}, e = {e}, f = {f}");
+
+            var sam = new Person
+            {
+                Name = "Sam",
+                DateOfBirth = new DateTime(1972, 1, 27)
+            };
+            WriteLine(sam.Origin);
+            WriteLine(sam.Greeting);
+            WriteLine(sam.Age);
+
+            sam.FavoriteIceCream = "Chocolate Fudge";
+            WriteLine($"Sam's favorite ice-cream flavor is {sam.FavoriteIceCream}.");
+            sam.FavoritePrimaryColor = "Red";
+            WriteLine($"Sam's favorite primary color is {sam.FavoritePrimaryColor}.");
+
+            sam.Children.Add(new Person { Name = "Charlie" });
+            sam.Children.Add(new Person { Name = "Ella" });
+            WriteLine($"Sam's first child is {sam.Children[0].Name}");
+            WriteLine($"Sam's second child is {sam.Children[1].Name}");
+            WriteLine($"Sam's first child is {sam[0].Name}");
+            WriteLine($"Sam's second child is {sam[1].Name}");
         }
     }
 }
