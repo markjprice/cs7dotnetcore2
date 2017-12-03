@@ -96,14 +96,13 @@ namespace LinqWithEFCore
 
                 XDocument doc = XDocument.Load("settings.xml");
                 var appSettings = doc.Descendants(
-                    "appSettings").Descendants("add")
-                    .Select(node => new
-                    {
-                        Key = node.Attribute("key").Value,
-                        Value = node.Attribute("value").Value
-                    })
-                    .ToArray();
-                    
+                  "appSettings").Descendants("add")
+                  .Select(node => new
+                  {
+                      Key = node.Attribute("key").Value,
+                      Value = node.Attribute("value").Value
+                  })
+                 .ToArray();
                 foreach (var item in appSettings)
                 {
                     WriteLine($"{item.Key}: {item.Value}");
