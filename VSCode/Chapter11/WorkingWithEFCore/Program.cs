@@ -76,7 +76,6 @@ namespace WorkingWithEFCore
         {
             using (var db = new Northwind())
             {
-                db.Products.
                 var loggerFactory = db.GetService<ILoggerFactory>();
                 loggerFactory.AddProvider(new ConsoleLoggerProvider());
 
