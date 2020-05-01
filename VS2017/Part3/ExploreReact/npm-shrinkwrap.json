@@ -660,9 +660,9 @@
       "integrity": "sha512-LxFiV5mefv0ley0SzqkOPR1bC4EbpPx8LkOz5vMe/Yi15t5hzwgO/G+tc7wOtL4PZTYjwHu8JnEiSLumuSjSfA=="
     },
     "bootstrap": {
-      "version": "3.3.7",
-      "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz",
-      "integrity": "sha1-WjiTlFSfIzMIdaOxUGVldPip63E="
+      "version": "3.4.1",
+      "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-3.4.1.tgz",
+      "integrity": "sha512-yN5oZVmRCwe5aKwzRj6736nSmKDX7pLYwsXiCj/EYmo16hODaBiT4En5btW/jhBF/seV+XMx3aYwukYC3A49DA=="
     },
     "brace-expansion": {
       "version": "1.1.8",
