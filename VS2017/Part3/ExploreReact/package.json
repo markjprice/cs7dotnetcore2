@@ -17,7 +17,7 @@
     "aspnet-webpack": "^2.0.1",
     "aspnet-webpack-react": "^3.0.0",
     "awesome-typescript-loader": "3.2.1",
-    "bootstrap": "3.3.7",
+    "bootstrap": "3.4.1",
     "css-loader": "0.28.4",
     "domain-task": "^3.0.3",
     "event-source-polyfill": "0.0.9",
