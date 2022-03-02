@@ -53,7 +53,7 @@
     "@types/jasmine": "2.5.53",
     "chai": "4.0.2",
     "jasmine-core": "2.6.4",
-    "karma": "1.7.0",
+    "karma": "6.3.16",
     "karma-chai": "0.1.0",
     "karma-chrome-launcher": "2.2.0",
     "karma-cli": "1.0.1",
